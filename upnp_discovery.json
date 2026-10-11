@@ -1,0 +1,18 @@
+{
+  "scan_timestamp": "2026-10-11 11:57:38",
+  "device_count": 1,
+  "devices": [
+    {
+      "ip": "172.20.166.5",
+      "os_fingerprint": "Windows 10.0",
+      "vendor": "Microsoft Corporation",
+      "category": "Media Server",
+      "upnp_stack": "UPnP-Device-Host/1.0",
+      "server_header": "Microsoft-Windows/10.0 UPnP/1.0 UPnP-Device-Host/1.0",
+      "location": "http://172.20.166.5:2869/upnphost/udhisapi.dll?content=uuid:70cb89fb-f373-4f16-8467-ea08c94c7438",
+      "friendly_name": "OmniBook",
+      "model_name": "Windows Digital Media Renderer",
+      "manufacturer": "Microsoft Corporation"
+    }
+  ]
+}
