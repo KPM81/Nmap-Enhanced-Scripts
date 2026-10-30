@@ -2,13 +2,29 @@
 
 Enhanced Nmap NSE scripts built on top of the base `broadcast-upnp-info.nse` script for UPnP device discovery, with two new capabilities: **Security Risk Assessment** and **JSON Export with Device Fingerprinting**.
 
+## Repository Structure
+
+```
+├── README.md
+├── upnp/
+│   ├── base/
+│   │   └── broadcast-upnp-info.nse
+│   └── enhanced/
+│       ├── broadcast-upnp-info-security-risk.nse
+│       └── broadcast-upnp-info-json-fingerprint.nse
+├── broadcast-upnp-info.nse
+├── broadcast-upnp-info-security-risk.nse
+├── broadcast-upnp-info-json-fingerprint.nse
+└── upnp_discovery.json
+```
+
 ## Scripts
 
-| File | Description |
-|------|-------------|
-| `broadcast-upnp-info.nse` | Original base script — UPnP multicast discovery |
-| `broadcast-upnp-info-security-risk.nse` | **Enhancement 1** — Security Risk Assessment |
-| `broadcast-upnp-info-json-fingerprint.nse` | **Enhancement 2** — JSON Export & Device Fingerprinting |
+| File | Direct Link | Description |
+|------|-------------|-------------|
+| `broadcast-upnp-info.nse` | [upnp/base/broadcast-upnp-info.nse](upnp/base/broadcast-upnp-info.nse) | Original base script – UPnP multicast discovery |
+| `broadcast-upnp-info-security-risk.nse` | [upnp/enhanced/broadcast-upnp-info-security-risk.nse](upnp/enhanced/broadcast-upnp-info-security-risk.nse) | **Enhancement 1** – Security Risk Assessment |
+| `broadcast-upnp-info-json-fingerprint.nse` | [upnp/enhanced/broadcast-upnp-info-json-fingerprint.nse](upnp/enhanced/broadcast-upnp-info-json-fingerprint.nse) | **Enhancement 2** – JSON Export & Device Fingerprinting |
 
 ## Enhancement 1: Security Risk Assessment
 
@@ -44,4 +60,4 @@ nmap --script broadcast-upnp-info-json-fingerprint.nse -e <interface> --script-a
 
 ## License
 
-Same as Nmap — See https://nmap.org/book/man-legal.html
+Same as Nmap – See https://nmap.org/book/man-legal.html
